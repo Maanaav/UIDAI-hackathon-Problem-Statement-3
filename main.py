@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from collections import Counter
 import re
 from googletrans import Translator
+# c0wijwa4_92UTS4NCavdhLYsSrHr5Qpz7pYNpc4Lw
+# c0wijwa4
 
 app = FastAPI()
 translator = Translator()
