@@ -14,7 +14,7 @@ Step's:
 
 2. Address language is detected, if any regional language is used it is converted to english using google translator
 
-3. All duplicate words are removed, unless it is follwed by key words like new, old, upper, lower, east, west, etc...
+3. All duplicate words are removed, unless it is followed by key words like new, old, upper, lower, east, west, etc...
 
 4. District and sub district is extracted by comparing the input address with names in csv files
 
