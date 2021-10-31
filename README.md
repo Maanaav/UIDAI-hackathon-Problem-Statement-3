@@ -13,21 +13,20 @@ Step's:
 
 2. Address language is detected, if any regional language is used it is converted to english using google translator
 
-3. All dublicate words are removed, unless it is follwed by key words like new, old, upper, lower, east, west, etc...
+3. All duplicate words are removed, unless it is follwed by key words like new, old, upper, lower, east, west, etc...
 
-4. This new address is now converted back to its regional language
+4. District and sub district is extracted by comparing the input address with names in csv files
+
+5. This new address is now converted back to its regional language
 
 # Video
 
 # Screenshots
 <p align = "center">
-  <img src="https://github.com/Abhitay/UIDAI-hackathon-Problem-Statement-2/blob/main/assets/phone/screen1.png" width="400" />
-  <img src="https://github.com/Abhitay/UIDAI-hackathon-Problem-Statement-2/blob/main/assets/phone/screen2.png" width="400" />
-  <img src="https://github.com/Abhitay/UIDAI-hackathon-Problem-Statement-2/blob/main/assets/phone/screen3.png" width="400" />
-  <img src="https://github.com/Abhitay/UIDAI-hackathon-Problem-Statement-2/blob/main/assets/phone/screen4.png" width="400" />
-  <img src="https://github.com/Abhitay/UIDAI-hackathon-Problem-Statement-2/blob/main/assets/phone/screen6.png" width="400" />
-  <img src="https://github.com/Abhitay/UIDAI-hackathon-Problem-Statement-2/blob/main/assets/phone/screen5.png" width="400" />
-  <img src="https://github.com/Abhitay/UIDAI-hackathon-Problem-Statement-2/blob/main/assets/screen/database.PNG" width="800" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen1.PNG" width="400" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen2.PNG" width="400" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen3.PNG" width="400" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen4.PNG" width="400" />
 </p>
 
 # Contribution
