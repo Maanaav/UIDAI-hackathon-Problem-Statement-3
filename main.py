@@ -33,6 +33,11 @@ async  def address(input):
         subDistrictNamesList = list(subDistrictNames['Sub_districts'])
         ocrAddressList = list(((OcrAddress.lower()).replace(',', '')).split(' '))
 
+        for i in range(0, len(ocrAddressList)):
+         if ocrAddressList[i] == "new" or ocrAddressList[i] == "old" or ocrAddressList[i] == "lower" or ocrAddressList[i] == "upper" or ocrAddressList[i] == "east" or ocrAddressList[i] == "west" or ocrAddressList[i] == "north" or ocrAddressList[i] == "south" or ocrAddressList[i] == "navi":
+            ocrAddressList[i] = ocrAddressList[i] + " " + ocrAddressList[i + 1]
+            ocrAddressList[i + 1] = " "
+
         i = 0
         # print('Districts')
         for elements in districtNamesList:
@@ -58,7 +63,6 @@ async  def address(input):
         return False
 
 
-    input = 'oh god what is this behaviour pooja Handwara Anantnag'
     input = input.lower()
     # words = my_address.split()
     # new_address = " ".join(sorted(set(words), key=words.index))
@@ -66,7 +70,7 @@ async  def address(input):
     input = input.split(" ")
 
     for i in range(0, len(input)):
-        if input[i] == "new" or input[i] == "old" or input[i] == "lower" or input[i] == "upper" or input[i] == "east" or input[i] == "west" or input[i] == "north" or input[i] == "south":
+        if input[i] == "new" or input[i] == "old" or input[i] == "lower" or input[i] == "upper" or input[i] == "east" or input[i] == "west" or input[i] == "north" or input[i] == "south" or input[i] == "navi":
             input[i] = input[i] + " " + input[i + 1]
             input[i + 1] = " "
 
@@ -77,12 +81,14 @@ async  def address(input):
     s = " ".join(UniqW.keys())
     s = re.sub("\s\s+", " ", s)
 
+    Dictionary1 = OcrAddressCheck(s)
+
     if isinstance(org_lang, list):
         s = translator.translate(s, dest=org_lang[0]).text
     else:
         s = translator.translate(s, dest=org_lang).text
     print(s)
-    Dictionary1 = OcrAddressCheck(s)
+    
     if Dictionary1:
         answer = s + '\n'+'District: ' + \
             Dictionary1['district'] + '\n' + \
