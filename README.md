@@ -6,6 +6,7 @@ We are a team of 5, B.Tech 2nd year students, we developed did project for [AADH
 
 # Description:
 We have made the application using python and fastAPI and it is deployed using Deta.
+API: https://emyf50.deta.dev/docs
 
 Step's:
 
@@ -20,6 +21,7 @@ Step's:
 5. This new address is now converted back to its regional language
 
 # Video
+https://youtu.be/5rL8UhXbtOw
 
 # Screenshots
 <p align = "center">
