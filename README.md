@@ -23,10 +23,10 @@ Step's:
 
 # Screenshots
 <p align = "center">
-  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen1.PNG" width="500" />
-  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen2.PNG" width="500" />
-  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen3.PNG" width="500" />
-  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen4.PNG" width="500" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen1.PNG" width="600" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen2.PNG" width="600" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen3.PNG" width="600" />
+  <img src="https://github.com/Maanaav/UIDAI-hackathon-Problem-Statement-3/blob/main/assets/screen4.PNG" width="600" />
 </p>
 
 # Contribution
